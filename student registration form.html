@@ -1,0 +1,74 @@
+#First, we need to know how many rows in the table then we need to know columns in the table. based on that we need to design table forms.
+<html>
+    <body>
+        <table border="1">
+            <form>
+                <caption>Student Registration Form</caption>
+                <tr>
+                    <td><label>Enter Name: </label></td>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td><label>Enter Mobile: </label></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label>Enter Mail ID: </label></td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Enter DOB: </label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Languages Known: </label></td>
+                    <td>
+                        <input type="checkbox" name="eng">English
+                        <input type="checkbox" name="tel">Telugu
+                        <input type="checkbox" name="hin">Hindi
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender: </label></td>
+                    <td>
+                        <input type="radio" name="gen">Male
+                        <input type="radio" name="gen">Female
+                        <input type="radio" name="gen">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Select Qualification: </label></td>
+                    <td>
+                        <select>
+                            <option>Diploma</option>
+                            <option>Degree</option>
+                            <option>Btech</option>
+                            <option>PhD</option>
+                            <option>PG</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Select Country: </label></td>
+                    <td>
+                        <select>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>Germany</option>
+                            <option>London</option>
+                            <option>Canada</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Comments / Suggestions: </label></td>
+                    <td><textarea rows="2" cols="25" placeholder="type here"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" value="Register"></td>
+                </tr>
+            </form>
+        </table>
+        
+    </body>
+</html>
