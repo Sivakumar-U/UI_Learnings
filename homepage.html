@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <style>
+            html{
+                background-image: url(background.jpg);
+                background-size: cover;
+                background-repeat: none;   
+            }
+            body{
+                width: 70%;
+                border: 2px solid orange;
+                margin: auto;
+                margin-top: 50px;
+                border-radius: 8px;
+            }
+            .menu{
+                background-color: orange;
+                padding: 10px;
+                display: flex;
+                justify-content: space-around;
+            }
+            .menu a{
+                text-decoration: none;
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+            .menu a:hover{
+                background-color: blue;
+                color: white;
+            }
+            .buttons{
+                text-align: center;
+            }
+            .buttons button{
+                background-color: orange;
+                font-size: 15px;
+                color: white;
+                padding: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                cursor: pointer;
+            }
+            .container{
+                display: flex;
+                justify-content: space-around;
+            }
+            .container div{
+                border: 1px solid orange;
+            }
+            .container h3{
+                color: orange;
+            }
+            .container p{
+                color: blue;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">Contact</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+        </div>
+        <div>
+            <img src="students.jpeg" width="100%"/>
+        </div>
+        <div class="buttons">
+            <button>Register</button>
+            <button>Quick Call</button>
+        </div>
+        <div class="container">
+            <div>
+                <h3>HTML</h3>
+                <p>HTML is used to create contents of web pages using pre-defined HTML elements</p>
+            </div>
+            <div>
+                <h3>CSS</h3>
+                <p>CSS is used to apply styles to web pages using style components</p>
+            </div>
+            <div>
+                <h3>JavaScript</h3>
+                <p>JavaScript is used to give responsiveness to web pages through scripting or programming</p>
+            </div>
+        </div>
+    </body>
+</html>
