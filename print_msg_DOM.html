@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script>
+            function hello(){
+                var name = document.getElementById("user").value;
+                document.getElementById("msg").innerHTML="Hello "+name;
+            }
+        </script>
+    </head>
+    <body>
+        Enter your name: <input type="text" id="user"/>
+        <button onclick="hello()">Display</button>
+        <p id="msg"></p>
+    </body>
+</html>
