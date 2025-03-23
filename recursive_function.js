@@ -3,7 +3,7 @@
 function print(a) {
   console.log(a);
   if (a > 0) {
-    print(a - 1);
+    print(a - 1); // calling function print() again here.
   }
   console.log(a);
 }
