@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div>
         <h2>I am from main Component</h2>
-        <Test/>
+        <Test/> //calling Test Class here.
       </div>
       
     )
