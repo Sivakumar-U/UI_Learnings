@@ -1,5 +1,6 @@
 import React from 'react'
 
+{/*Arrow functional component */}
 const Welcome = () => {
   return (
     <div>
