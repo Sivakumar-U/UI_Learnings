@@ -1,10 +1,10 @@
 import React from 'react';
-import Counter from './Counter';
+import WelcomeBox from './WelcomeBox';
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <WelcomeBox />
     </div>
   );
 };
