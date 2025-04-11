@@ -1,24 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react';
+import Welcome from './Welcome';  // Custom component
 
-class Test extends Component {
-  render() {
-    return (
-      <h2>I am from Child Component</h2>
-    )
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <Welcome />
+    </div>
+  );
+};
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <h2>I am from main Component</h2>
-        <Test/> //calling Test Class here.
-      </div>
-      
-    )
-  }
-}
-
-
-export default App
+export default App;
