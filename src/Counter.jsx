@@ -1,14 +1,18 @@
-{/*Counter with functional component */}
-import React, {useState} from 'react';
+{/*Counter with class component */}
+import React, { Component } from 'react'
 
-function Counter() {
-    const [count, setCount]=useState(0);
-  return (
-    <div className='main'>
-      <p>you clicked {count} times</p>
-      <button onClick={()=>setCount(count+1)}>Click Me</button>
-    </div>
-  );
+export default class Counter extends Component {
+    constructor(){
+        super()
+        this.state= { count:0 }
+    }
+  render() {
+    return (
+      <div className='main'>
+        <p>you clicked {this.state.count} times</p>
+        <button onClick={()=> this.setState({count:this.state.count+1})}>Click Me</button>
+      </div>
+    )
+  }
 }
 
-export default Counter;
