@@ -1,10 +1,10 @@
 import React from 'react';
-import Welcome from './Welcome';  // Custom component
+import Counter from './Counter';
 
 const App = () => {
   return (
     <div>
-      <Welcome />
+      <Counter />
     </div>
   );
 };
