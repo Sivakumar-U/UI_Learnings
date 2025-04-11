@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <style>
+             table {
+                width: 400px;
+                border-collapse: collapse;
+                margin: auto; /* Centers the table */
+            }
+            td {
+                padding: 5px;
+                text-align: center;
+            }
+            .btn-container{
+                display: flex;
+                justify-content: center;
+                gap: 10px;  /* Adds spacing between buttons */
+            }
+            button {
+                padding: 5px 10px;
+                border: none;
+                cursor: pointer;
+                transition: 0.3s; /* Smooth hover effect */
+            }
+            button:hover{
+                background-color: green;
+                color: white;
+            }
+        </style>
+       <script>
+            function add(){
+                var x = document.getElementById("first").value;
+                var y = document.getElementById("second").value;
+                var z = parseInt(x) + parseInt(y);
+                document.getElementById("result").value = z;
+            }
+
+            function sub(){
+                var x = document.getElementById("first").value;
+                var y = document.getElementById("second").value;
+                var z = parseInt(x) - parseInt(y);
+                document.getElementById("result").value = z;
+            }
+
+            function mul(){
+                var x = document.getElementById("first").value;
+                var y = document.getElementById("second").value;
+                var z = parseInt(x) * parseInt(y);
+                document.getElementById("result").value = z;
+            }
+            
+            function div(){
+                var x = document.getElementById("first").value;
+                var y = document.getElementById("second").value;
+                var z = parseFloat(x) / parseFloat(y);
+                document.getElementById("result").value = z;
+            }
+       </script>
+    </head>
+    <body>
+        
+        <table border="1px">
+            <tr>
+                <td colspan="2"><h2>Calculator</h2></td>
+            </tr>
+            <tr>
+                <td>Enter First Num: </td>
+                <td><input type="text" id="first"></td>
+            </tr>
+            <tr>
+                <td>Enter Second Num: </td>
+                <td><input type="text" id="second"></td>
+            </tr>
+            <tr>
+                <td>Result: </td>
+                <td><input type="text" id="result" readonly></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="btn-container">
+                        <button onclick="add()">Add</button>
+                        <button onclick="sub()">Subtract</button>
+                    </div>
+                    
+                </td>
+                <td>
+                    <div class="btn-container">
+                        <button onclick="mul()">Multiply</button>
+                        <button onclick="div()">Divide</button>
+                    </div>
+                   
+                </td>  
+            </tr>
+        </table>
+    </body>
+</html>
