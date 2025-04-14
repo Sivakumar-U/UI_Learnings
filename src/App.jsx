@@ -1,10 +1,10 @@
 import React from 'react';
-import EventHandle3 from './EventHandle3';
+import Counter2 from './Counter2';
 
 const App = () => {
   return (
     <div>
-      <EventHandle3/>
+      <Counter2/>
     </div>
   );
 };
