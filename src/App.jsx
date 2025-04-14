@@ -1,10 +1,10 @@
 import React from 'react';
-import WelcomeBox from './WelcomeBox';
+import Variables from './variables';
 
 const App = () => {
   return (
     <div>
-      <WelcomeBox />
+      <Variables />
     </div>
   );
 };
