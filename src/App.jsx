@@ -1,10 +1,10 @@
 import React from 'react';
-import Parent1 from './Parent1';
+import Object1 from './Object1';
 
 const App = () => {
   return (
     <div>
-      <Parent1/>
+      <Object1/>
     </div>
   );
 };
