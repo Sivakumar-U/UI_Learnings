@@ -1,11 +1,10 @@
 import React from 'react';
-import InternalStyling from './InternalStyling';
-import EventHandle from './EventHandle';
+import EventHandle2 from './EventHandle2';
 
 const App = () => {
   return (
     <div>
-      <EventHandle/>
+      <EventHandle2/>
     </div>
   );
 };
