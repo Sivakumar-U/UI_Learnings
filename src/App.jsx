@@ -1,10 +1,10 @@
 import React from 'react';
-import ToggleSwitch from './ToggleSwitch';
+import ToggleSwitchButton from './ToggleSwitchButton';
 
 const App = () => {
   return (
     <div>
-      <ToggleSwitch/>
+      <ToggleSwitchButton/>
     </div>
   );
 };
