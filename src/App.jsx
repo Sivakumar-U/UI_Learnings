@@ -1,10 +1,10 @@
 import React from 'react';
-import Variables from './variables';
+import Array from './Array';
 
 const App = () => {
   return (
     <div>
-      <Variables />
+      <Array />
     </div>
   );
 };
