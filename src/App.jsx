@@ -1,10 +1,10 @@
 import React from 'react';
-import Object from './Object';
+import PersonDetails from './PersonDetails';
 
 const App = () => {
   return (
     <div>
-      <Object/>
+      <PersonDetails/>
     </div>
   );
 };
