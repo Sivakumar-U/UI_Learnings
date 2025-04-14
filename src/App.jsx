@@ -1,10 +1,10 @@
 import React from 'react';
-import FunctionalCounter2 from './FunctionalCounter2';
+import ToggleSwitch from './ToggleSwitch';
 
 const App = () => {
   return (
     <div>
-      <FunctionalCounter2/>
+      <ToggleSwitch/>
     </div>
   );
 };
