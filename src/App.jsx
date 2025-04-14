@@ -1,10 +1,10 @@
 import React from 'react';
-import Counter2 from './Counter2';
+import FunctionalCounter from './FunctionalCounter';
 
 const App = () => {
   return (
     <div>
-      <Counter2/>
+      <FunctionalCounter/>
     </div>
   );
 };
