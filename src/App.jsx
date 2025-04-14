@@ -1,10 +1,11 @@
 import React from 'react';
-import ToggleHide_or_Show from './ToggleHide_or_Show';
+import PasswordToggle from './PasswordToggle';
 
 const App = () => {
   return (
     <div>
-      <ToggleHide_or_Show/>
+      <h2>Login Form</h2>
+      <PasswordToggle/>
     </div>
   );
 };
