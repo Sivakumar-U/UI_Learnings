@@ -1,10 +1,10 @@
 import React from 'react';
-import Array1 from './Array1';
+import ExternalStyling from './ExternalStyling';
 
 const App = () => {
   return (
     <div>
-      <Array1/>
+      <ExternalStyling/>
     </div>
   );
 };
