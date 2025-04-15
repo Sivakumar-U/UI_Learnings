@@ -1,11 +1,10 @@
 import React from 'react';
-import PasswordToggle from './PasswordToggle';
+import TextInput from './TextInput';
 
 const App = () => {
   return (
     <div>
-      <h2>Login Form</h2>
-      <PasswordToggle/>
+      <TextInput/>
     </div>
   );
 };

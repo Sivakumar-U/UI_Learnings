@@ -1,7 +1,7 @@
 import React from 'react'
 
 function EventHandle2() {
-    let handleChange=()=>{
+    let handleChange=(event)=>{
         console.log("Typing: "+event.target.value)
     }
   return (
