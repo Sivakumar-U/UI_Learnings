@@ -1,0 +1,119 @@
+/* 
+  Global page setup - optional body style 
+  (commented out in my code, can be used for default font & spacing)
+*/
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+
+/* Wrapper that makes the whole page fill at least 100% of the viewport height */
+.page-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack header, main, footer vertically */
+    min-height: 100vh;      /* Full screen height */
+  }
+  
+  /* Header styling */
+  .header {
+    background-color: #003366; /* Dark navy blue for classic professional look */
+    color: white;              /* White text */
+    padding: 20px;             /* Space inside the header */
+    text-align: center;        /* Centered title */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Soft shadow below the header */
+  }
+  
+  /* Cart count bubble next to cart icon */
+  .cart-count {
+    background-color: crimson; /* Bright red bubble */
+    color: white;
+    padding: 2px 8px;
+    font-size: 14px;
+    border-radius: 12px;       /* Fully rounded */
+    margin-left: 6px;
+  }
+  
+  /* Main container */
+  .container {
+    flex: 1;                  /* Fills the space between header and footer */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Product list grid layout */
+  .product-list {
+    display: flex;
+    justify-content: center;  /* Center cards horizontally */
+    flex-wrap: wrap;          /* Wrap cards on smaller screens */
+    gap: 20px;                /* Space between cards */
+    margin-top: 20px;
+  }
+  
+  /* Individual product card style */
+  .card {
+    border: 1px solid #ddd;   /* Light border */
+    border-radius: 10px;      /* Rounded corners */
+    padding: 15px;
+    width: 200px;             /* Fixed width for uniform layout */
+    transition: 0.33 ease;    /* Smooth hover effect */
+  }
+  
+  /* Shadow on hover for elevation effect */
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Product image style */
+  /* I replaced this one with a better version below */
+  /* .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  } */
+  
+  /* Improved image styling */
+  .card img {
+    height: 150px;           /* Fixed height */
+    object-fit: cover;       /* Crop to fit perfectly */
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Product name spacing */
+  .card h3 {
+    margin: 10px 0 5px;
+  }
+  
+  /* Product price style */
+  .card p {
+    font-weight: bold;
+    color: green;            /* Green for pricing emphasis */
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff; /* Bootstrap-style blue */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3; /* Slightly darker blue */
+  }
+  
+  /* Footer styling */
+  .footer {
+    background-color: #f2f2f2; /* Light gray */
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #555;
+    margin-top: 40px;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.05); /* Light top shadow */
+  }
+  

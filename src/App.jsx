@@ -1,10 +1,10 @@
 import React from 'react';
-import RoutingProgram2 from './RoutingProgram2';
+import WebPage from './WebPage';
 
 const App = () => {
   return (
     <div>
-      <RoutingProgram2/>
+      <WebPage/>
     </div>
   );
 };
