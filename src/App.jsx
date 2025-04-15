@@ -1,10 +1,10 @@
 import React from 'react';
-import TextInput from './TextInput';
+import StylingToggleSwitch from './StylingToggleSwitch';
 
 const App = () => {
   return (
     <div>
-      <TextInput/>
+      <StylingToggleSwitch/>
     </div>
   );
 };
