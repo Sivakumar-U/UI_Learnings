@@ -11,7 +11,7 @@
     padding: 15px;
 } */
 
-a {
+/* a {
     color: purple;
     text-decoration: none;
     transition: 0.2s ease-in-out;
@@ -20,5 +20,44 @@ a {
   a:hover {
     color: black;
     text-decoration: underline;
-  }
-  
+  } */
+
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    text-align: center;
+    padding: 20px;
+    margin-top: 200px;
+}
